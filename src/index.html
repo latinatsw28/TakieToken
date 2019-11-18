@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Takie Token - Wallet</title>
+  <style>
+      bootswatch/dist/sketchy
+    * {
+      box-sizing: border-box;
+    }
+    
+    .header {
+       padding: 15px;
+    }
+    
+    .menu {
+      width: 50%;
+      float: left;
+      padding: 26px;
+     
+    }
+    
+    .main {
+      width: 20%;
+      float:left;
+      padding: 15px;
+      
+    }
+    .main1 {
+      width: 80%;
+      float: left;
+      padding: 15px;
+      
+    }   
+
+    </style>
+    </head>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--import "bootswatch/dist/sketchy/bootstrap.min.css"; 
+    // TODO: Note: Replace ^[theme]^ (examples: darkly, slate, cosmo, spacelab, and superhero. See https://bootswatch.com for current theme names.)
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+            
+         
+        <div class ="main">
+         <img src="/images/bitcoin-virtual-currency-wallet-with-bills_24877-56101.jpg">
+        </div>
+        
+                        
+                        <div class="menu">
+                  <h1>My Wallet</h1>
+                  <h1>Balance: 20,000 Takies</h1>
+                        
+            
+                        
+            <div class="form-group">
+              <label class="col-form-label col-form-label-lg" for="inputLarge">Wallet Address</label>
+              <input class="form-control form-control-lg" type="text" id="inputLarge">
+
+              <div class="form-group">
+                <label class="col-form-label col-form-label-lg">Amount</label>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">$</span>
+                      <input type="text" class="form-control form-control-lg" id="TTTransferAmount, inputLarge"
+                        aria-label="Amount (to the nearest dollar)">
+                      <div class="input-group-append">
+                        <span class="input-group-text">.00</span>
+                      </div>
+                        <div class="main">
+                        <button class="btn btn-primary" id="transferButton" type="button">Transfer</button></div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/web3.min.js"></script>
+      <script src="js/truffle-contract.js"></script>
+      <script src="js/app.js"></script>
+</body>
+</html>
